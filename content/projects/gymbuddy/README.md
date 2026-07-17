@@ -2,32 +2,52 @@
 
 ## Overview
 
-GymBuddy is a fitness management application designed to help users organize workouts and manage exercise routines through a mobile application backed by a Python REST API.
+GymBuddy is an AI-powered fitness assistant designed to answer fitness-related queries and provide personalized workout guidance using Retrieval-Augmented Generation (RAG).
+
+The project focuses on backend API development using FastAPI while leveraging locally hosted Large Language Models through Ollama. A lightweight web interface was used only to demonstrate and test backend functionality.
+
+---
+
+## My Contribution
+
+This was a team project.
+
+My primary contributions included:
+
+- Backend API development using FastAPI
+- Integration of Ollama for local LLM inference
+- Development of the Retrieval-Augmented Generation workflow
+- Backend testing and debugging
+
+---
+
+## Technology Stack
+
+- Python
+- FastAPI
+- Ollama
+- Retrieval-Augmented Generation (RAG)
+- Git
 
 ---
 
 ## Features
 
-- Workout management
-- Exercise catalog
-- RESTful backend
-- Mobile application integration
+- RESTful API endpoints
+- AI-powered fitness assistant
+- Context-aware responses
+- Local LLM inference
 - Modular backend architecture
 
 ---
 
-## Tech Stack
+## Resume Focus
 
-- Python
+This project demonstrates:
+
+- Backend API development
+- Python programming
 - FastAPI
-- Ollama
-- SQLite
-
----
-
-## Skills Demonstrated
-
-- Backend Development
-- REST API Design
-- Team Collaboration
-- Software Engineering
+- LLM integration
+- Retrieval-Augmented Generation
+- Team collaboration
