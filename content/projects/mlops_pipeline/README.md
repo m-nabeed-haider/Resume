@@ -36,5 +36,4 @@ A production-oriented MLOps project demonstrating how to package, deploy, monito
 - Containerization
 - Backend Development
 - Production Deployment
-## Status
-Completed
+
