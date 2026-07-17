@@ -1,0 +1,30 @@
+name: Build Resumes
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: xu-cheng/latex-action@v3
+        with:
+          root_file: |
+            python/resume.tex
+            ai/resume.tex
+            mlops/resume.tex
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: resumes
+          path: |
+            python/resume.pdf
+            ai/resume.pdf
+            mlops/resume.pdf

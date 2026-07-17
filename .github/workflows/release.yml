@@ -1,0 +1,37 @@
+name: Release Resume PDFs
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: xu-cheng/latex-action@v3
+        with:
+          root_file: |
+            python/resume.tex
+            ai/resume.tex
+            mlops/resume.tex
+
+      - name: Rename PDFs
+        run: |
+          mv python/resume.pdf Python-Resume.pdf
+          mv ai/resume.pdf AI-Resume.pdf
+          mv mlops/resume.pdf MLOps-Resume.pdf
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            Python-Resume.pdf
+            AI-Resume.pdf
+            MLOps-Resume.pdf
