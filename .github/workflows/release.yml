@@ -22,6 +22,7 @@ jobs:
             python/resume.tex
             ai/resume.tex
             mlops/resume.tex
+          work_in_root_file_dir: true
 
       - name: Rename PDFs
         run: |
