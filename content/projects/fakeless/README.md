@@ -34,5 +34,3 @@ The project generates carefully optimized perturbations that preserve perceptual
 - Research Engineering
 - Model Training
 - Dataset Preparation
-## Status
-Completed

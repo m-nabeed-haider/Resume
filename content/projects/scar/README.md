@@ -21,6 +21,3 @@ The project explores modern agentic AI architectures by combining LangGraph, Fas
 - FastAPI
 - Ollama
 - Docker
-
-## Status
-Completed
