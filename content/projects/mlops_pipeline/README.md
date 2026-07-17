@@ -2,38 +2,45 @@
 
 ## Overview
 
-A production-oriented MLOps project demonstrating how to package, deploy, monitor, and maintain machine learning services using modern DevOps and MLOps practices.
+A production-oriented machine learning deployment pipeline demonstrating model serving, containerization, monitoring, and continuous integration practices.
+
+The project focuses on deploying machine learning applications using modern MLOps principles rather than model development.
+
+---
+
+## Project Type
+
+Course Project
+
+---
+
+## Technology Stack
+
+- Python
+- FastAPI
+- Docker
+- Prometheus
+- Grafana
+- GitHub Actions
 
 ---
 
 ## Features
 
-- FastAPI inference service
-- Dockerized deployment
-- GitHub Actions CI
-- Prometheus metrics
-- Grafana dashboards
-- Automated testing
-
----
-
-## Tech Stack
-
-- Python
-- FastAPI
-- Docker
-- GitHub Actions
-- Prometheus
-- Grafana
+- REST API model serving
+- Docker containerization
+- Metrics collection
+- Monitoring dashboards
+- CI automation
+- Modular project structure
 
 ---
 
 ## Skills Demonstrated
 
-- MLOps
+- Docker
+- API Development
+- Monitoring
+- Observability
 - CI/CD
-- Monitoring & Observability
-- Containerization
-- Backend Development
-- Production Deployment
-
+- Production ML
