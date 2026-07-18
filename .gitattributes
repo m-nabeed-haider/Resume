@@ -1,0 +1,36 @@
+# Auto-detect text files
+* text=auto eol=lf
+
+# Source files
+*.tex      text
+*.cls      text
+*.sty      text
+*.bib      text
+
+*.md       text
+*.yml      text
+*.yaml     text
+*.json     text
+*.toml     text
+
+# Scripts
+*.sh       text eol=lf
+*.ps1      text eol=crlf
+*.bat      text eol=crlf
+
+# Images
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.pdf      binary
+*.ico      binary
+*.svg      text
+
+# Fonts
+*.ttf      binary
+*.otf      binary
+
+# Archives
+*.zip      binary
+*.7z       binary
